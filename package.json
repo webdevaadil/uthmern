@@ -13,7 +13,7 @@
     "client":"npm start --prefix client",
     "build":"npm run build",
     "dev": "concurrently \"npm start\"\"npm run client\"",
-    "heroku-postbuild": " npm install --prefix client "
+    
   },
   "keywords": [
     "example",
