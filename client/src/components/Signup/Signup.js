@@ -126,76 +126,7 @@ if(isAuthenticated){
   </section>
 
 
-    {/* <div classNameName="login_container">
-        <div classNameName="login_form_container">
-            <div classNameName="left">
- <img src={image1} alt="" />
-            </div>
 
-            <div classNameName="login_right">
-                <form onSubmit={handleSubmit} action="" classNameName="form_container">
-                        <h1>Hello!</h1>
-                        <div classNameName="input_label">
-                        <label htmlFor="name">Name</label>
-
-                        <input 
-                        onChange={handleChange}
-                        type = "text"
-                        placeholder = "Name"
-                        name = "username"
-                        required
-                        value = {data.username}
-                        classNameName = "login_input"
-                        />
-                        </div>
-                        <div classNameName="input_label">
-                        <label htmlFor="email">Email</label>
-
-                        <input 
-                        onChange={handleChange}
-                        type = "email"
-                        placeholder = "Email"
-                        name = "email"
-                        required
-                        value = {data.email}
-                        classNameName = "login_input"
-                        />
-
-                        </div>
-
-                        <div classNameName="input_label">
-                            <label htmlFor="password">Password</label>
-
-                        <input 
-                        onChange={handleChange}
-                        type = "password"
-                        placeholder = "Password"
-                        name = "password"
-                        required
-                        value = {data.password}
-                        classNameName = "login_input"
-                        />
-                        </div>
-                        <div classNameName="btn-flex">
-<div classNameName="input_label">
-<label htmlFor="date">Date of Birth</label>
-                    <input onChange={handleChange} type="date" name="dob" placeholder="dob" required  value={data.dob} classNameName = " greytxt" />
-</div>
- 
-                           <select style={{ border:"2px solid rgba(128, 128, 128, 0.356)"  }} classNameName="greytxt" placeholder="Gender" onChange = {handleChange } name="gender" id="">
-                           <option value = "Male" >Male</option>
-                           <option value = "Female" >Female</option>
-                         
-                           </select>
-                        </div>
-
-
-              <button type = "submit" classNameName="login_btn green">Signup</button>
-              
-                </form>
-            </div>
-        </div>
-    </div> */}
     </>
     )
 }
