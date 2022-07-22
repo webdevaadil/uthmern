@@ -5,16 +5,15 @@ import"./accountsetting.css"
 export const AccountSetting = () => {
   return (
     <div style={{display:"flex"}}>
-           <ProfileNav/>
           
-        <div class="box_two">
-            <h2 class="per_text">Change Password</h2>
-            <input class="cuttent_pass" type="password" placeholder="Enter Current Password"/>
-            <input class="new_pass" type="password" placeholder="Enter a new Password"/>
-            <input class="re_pass" type="password" placeholder="Re-enter a new Password"/>
+        <div className="box_two">
+            <h2 className="per_text">Change Password</h2>
+            <input className="cuttent_pass" type="password" placeholder="Enter Current Password"/>
+            <input className="new_pass" type="password" placeholder="Enter a new Password"/>
+            <input className="re_pass" type="password" placeholder="Re-enter a new Password"/>
             
             
-            <button class="sav_btn">Save</button>
+            <button className="sav_btn">Save</button>
         </div>
     </div>
   )

@@ -194,3 +194,7 @@ h2{
 .button_flex_box{
     display: flex;
 }
+
+a{
+    text-decoration: none;
+}

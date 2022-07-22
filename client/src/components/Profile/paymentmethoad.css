@@ -8,8 +8,6 @@ body{
     /* display: flex; */
     justify-content: center;
     /* margin-top: 10px; */
-
-
 }
 .box_one{
     border-radius: 8px;
@@ -109,12 +107,7 @@ h2{
     letter-spacing: 0.15px;
     color: #0A0E0F;
 }
-/* li::before {
-    content: '\2713';
-    font-size: 20px;
-    vertical-align: middle;
-    
-} */
+
 li{
     font-weight: 600;
     font-size: 16px;

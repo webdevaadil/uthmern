@@ -8,6 +8,7 @@ import { ProfileNav } from "./components/Profile/ProfileNav";
 import { AccountSetting } from "./components/Profile/AccountSetting";
 import {PaymentMethoad} from "./components/Profile/PaymentMethoad"
 import { Profile } from "./components/Profile/Profile";
+import { Dashboard} from "./components/Profile/Dashboard";
 import { Header } from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import {Sports} from "./components/Main/Sports"
@@ -22,13 +23,13 @@ function App() {
     <Route path = "/sports" exact element = {<Sports/>}/>
      <Route path="/signup" exact element={<Signup/>}/>
      <Route path="/login" exact element={<Login/>}/>
-
+     <Route path="/dashboard" element={<Dashboard />}>
+            <Route path="" element={<Profile/>} />
+            <Route path="payment" element={<PaymentMethoad />} />
+            <Route path="accountsetting" element={<AccountSetting />} />
+          </Route>
     </Routes>
-    <Routes>
-          <Route path="/dashboard" element={<Profile />} />
-          <Route path="/dashboard/payment" element={<PaymentMethoad/>} />
-          <Route path="/dashboard/accountsetting" element={<AccountSetting/>} />
-        </Routes>
+  
     </BrowserRouter>
 </>
   );
