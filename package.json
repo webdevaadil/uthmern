@@ -1,11 +1,11 @@
 {
   "name": "zoho",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000u\u0000t\u0000h\u0000m\u0000e\u0000r\u0000n\u0000\r\u0000 \u0000#\u0000 \u0000u\u0000t\u0000h\u0000m\u0000e\u0000r\u0000n\u0000\r\u0000 \u0000",
   "main": "server.js",
   "engines": {
     "node": "16.14.0",
-    "npm":"8.13.2"
+    "npm": "8.13.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,5 +27,14 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.4",
     "nodemailer": "^6.7.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevaadil/uthmern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webdevaadil/uthmern/issues"
+  },
+  "homepage": "https://github.com/webdevaadil/uthmern#readme"
 }

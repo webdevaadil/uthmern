@@ -1,16 +1,16 @@
 {
-  "main.css": "/static/css/main.0af93899.chunk.css",
-  "main.js": "/static/js/main.9a3d86b6.chunk.js",
-  "main.js.map": "/static/js/main.9a3d86b6.chunk.js.map",
-  "static/js/1.aec66675.chunk.js": "/static/js/1.aec66675.chunk.js",
-  "static/js/1.aec66675.chunk.js.map": "/static/js/1.aec66675.chunk.js.map",
+  "main.css": "/static/css/main.2aa55ce1.chunk.css",
+  "main.js": "/static/js/main.6eaacfcb.chunk.js",
+  "main.js.map": "/static/js/main.6eaacfcb.chunk.js.map",
+  "static/js/1.3dc9a795.chunk.js": "/static/js/1.3dc9a795.chunk.js",
+  "static/js/1.3dc9a795.chunk.js.map": "/static/js/1.3dc9a795.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/Rectangle1.jpg": "/static/media/Rectangle1.7bb603ec.jpg",
   "static/media/Main.css": "/static/media/goat-slide.b6f7246b.png",
   "static/media/Login.css": "/static/media/welcome-img.c8952dd8.png",
-  "static/css/main.0af93899.chunk.css.map": "/static/css/main.0af93899.chunk.css.map",
+  "static/css/main.2aa55ce1.chunk.css.map": "/static/css/main.2aa55ce1.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1df9c8b5a78258bdea0250d4dfcd0fba.js": "/precache-manifest.1df9c8b5a78258bdea0250d4dfcd0fba.js",
+  "precache-manifest.a8e02a839195816f086127ebbd0e5b66.js": "/precache-manifest.a8e02a839195816f086127ebbd0e5b66.js",
   "service-worker.js": "/service-worker.js"
 }
